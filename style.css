@@ -1,5 +1,18 @@
 body {
     margin: 0;
+    background-color: #f7f4f3;
+}
+
+h1, h2, h3, a, p {
+    font-family: 'Poppins', 'sans-serif';
+}
+
+h1, h2 {
+    color: #102639;
+}
+
+p {
+    font-weight: 400;
 }
 
 .section {
@@ -13,7 +26,7 @@ body {
     position: fixed;
     width: 100vw;
     padding: 10px;
-    background-color: black;
+    background-color: #1a232e;
     align-items: center;
 }
 
@@ -39,6 +52,21 @@ body {
     text-decoration: none;
 }
 
+#nav-bar-text a {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+#nav-bar-text a:hover {
+    color: #f7cac9;
+}
+
 #profile-container {
     display: flex;
     flex-direction: row-reverse;
@@ -61,14 +89,18 @@ body {
 }
 
 #profile-text-container h1 {
+    font-size: 100px;
+    padding: 20px;
     margin-bottom: 0px;
 }
 
 #profile-text-container h2 {
-    margin-top: 0px;
+    font-size: 50px;
+    padding: 20px;
+    margin-top: -30px;
 }
 
-.section-title {
+#project-title {
     text-align: center;
 }
 
@@ -78,13 +110,17 @@ body {
 }
 
 .project-box {
-    background-color: black;
+    background-color: #2f4156;
     color: white;
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 400px;
     padding: 20px;
     margin: 10px;
     text-align: center;
+}
+
+.project-box:hover{
+    background-color: #1a2836;
 }
 
 #about-me-container {
@@ -100,12 +136,11 @@ body {
 
 #contact-container {
     display: flex;
-    background-color: black;
+    background-color: #1a232e;
     color: white;
     align-items: center;
     padding: 10px;
 }
-
 
 #contact-container #contact-logo {
     height: 13%;
@@ -114,3 +149,25 @@ body {
     margin-left: 10px;
     margin-right: 10px;
 }
+
+#contact-container a {
+    color: white;
+    text-decoration: none;
+}
+
+#back-container {
+    text-align: center;
+    padding: 10px;
+}
+
+#back-text {
+    color:#102639;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#back-text:hover {
+    color:#f7cac9;
+}
+

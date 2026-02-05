@@ -55,3 +55,9 @@
     margin: 10px;
     text-align: center;
 }
+
+#about-me-container {
+    display: grid;
+    grid-auto-flow: column;
+    padding: 20px;
+}

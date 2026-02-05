@@ -1,3 +1,4 @@
+/* Tags */
 body {
     margin: 0;
     background-color: #f7f4f3;
@@ -21,6 +22,7 @@ p {
     align-content: center;
 }
 
+/* Navigation Bar */
 #nav-bar-container {
     display: flex;
     position: fixed;
@@ -67,6 +69,7 @@ p {
     color: #f7cac9;
 }
 
+/* Profile Section */
 #profile-container {
     display: flex;
     flex-direction: row-reverse;
@@ -100,6 +103,7 @@ p {
     margin-top: -30px;
 }
 
+/* Projects Section */
 #project-title {
     text-align: center;
 }
@@ -123,6 +127,7 @@ p {
     background-color: #1a2836;
 }
 
+/* About Me Section */
 #about-me-container {
     display: flex;
     justify-content: center;
@@ -134,6 +139,7 @@ p {
     width: 400px;
 }
 
+/* Contact Section */
 #contact-container {
     display: flex;
     background-color: #1a232e;
@@ -155,6 +161,7 @@ p {
     text-decoration: none;
 }
 
+/* Back to Top Section */
 #back-container {
     text-align: center;
     padding: 10px;

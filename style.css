@@ -13,11 +13,17 @@ body {
     position: fixed;
     width: 100vw;
     padding: 10px;
-    justify-content: flex-end;
     background-color: black;
+    align-items: center;
 }
 
+#nav-bar-logo {
+    height: 7%;
+    width: 7%;
+    padding: 5px;
+}
 #nav-bar-text {
+    margin-left: auto;
     padding: 10px;
     margin-right: 20px;
 }
@@ -36,7 +42,7 @@ body {
 #profile-container {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: center;
+    justify-content: space-evenly;
     height: 100vh;
     width: 100vw;
 }
@@ -100,9 +106,10 @@ body {
 }
 
 
-#contact-container .logo {
+#contact-container #contact-logo {
     height: 13%;
     width: 13%;
     padding: 10px;
+    margin-left: 10px;
     margin-right: 10px;
 }

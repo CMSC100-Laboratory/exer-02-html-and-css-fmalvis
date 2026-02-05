@@ -57,7 +57,11 @@
 }
 
 #about-me-container {
-    display: grid;
-    grid-auto-flow: column;
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#skills-container, #autobio-container {
+    padding: 10px;
+    width: 400px;
 }

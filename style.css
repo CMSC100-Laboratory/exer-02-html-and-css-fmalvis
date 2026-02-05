@@ -1,0 +1,15 @@
+#nav-bar-container {
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+}
+
+#nav-bar-container p {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

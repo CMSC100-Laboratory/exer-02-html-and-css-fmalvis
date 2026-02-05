@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .section {
     height: 100vh;
     width: 100vw;
@@ -33,10 +37,16 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
+    height: 100vh;
+    width: 100vw;
 }
 
 #profile-image {
+    align-self: center;
     padding: 30px;
+    max-height: 40%;
+    max-width: 40%;
+    border-radius: 50%;
 }
 
 #profile-text-container {

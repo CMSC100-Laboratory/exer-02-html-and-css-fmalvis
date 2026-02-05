@@ -36,3 +36,21 @@
 #profile-text-container h2 {
     margin-top: 0px;
 }
+
+.section-title {
+    text-align: center;
+}
+
+#projects-container {
+    display: flex;
+    justify-content: center;
+}
+
+.project-box {
+    background-color: black;
+    color: white;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+}

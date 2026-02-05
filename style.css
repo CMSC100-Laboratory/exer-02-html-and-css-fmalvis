@@ -65,3 +65,19 @@
     padding: 10px;
     width: 400px;
 }
+
+#contact-container {
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding: 10px;
+}
+
+
+#contact-container .logo {
+    height: 13%;
+    width: 13%;
+    padding: 10px;
+    margin-right: 10px;
+}

@@ -106,6 +106,7 @@ p {
 /* Projects Section */
 #project-title {
     text-align: center;
+    font-size: 45px;
 }
 
 #projects-container {
@@ -136,6 +137,10 @@ p {
     padding: 10px;
     margin: 30px;
     width: 400px;
+}
+
+#skills-container h1, #autobio-container h1 {
+    font-size: 45px;
 }
 
 /* Contact Section */

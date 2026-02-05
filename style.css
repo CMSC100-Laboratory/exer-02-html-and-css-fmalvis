@@ -13,3 +13,26 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+#profile-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+#profile-image {
+    padding: 30px;
+}
+
+#profile-text-container {
+    align-self: center;
+    padding: 10px;
+}
+
+#profile-text-container h1 {
+    margin-bottom: 0px;
+}
+
+#profile-text-container h2 {
+    margin-top: 0px;
+}
